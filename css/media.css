@@ -1,0 +1,198 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
+	.dotted_img{
+		display: none;
+	}
+
+
+
+}
+
+
+
+.men_jacket{
+	display: block!important;
+}
+.women_jacket{
+	display: block!important;
+}
+
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 768px) {
+
+
+	.dotted_img{
+		display: none;
+	}
+
+
+
+	.yellow_value{
+		font-size: 15px!important;
+		
+	}
+
+	.men_jacket{
+		display: block!important;
+	}
+	.women_jacket{
+		display: block!important;
+	}
+	header .banner_btn{
+		width: 100px;
+		height: 40px;
+		background-color: #90AA29;
+		color: white;
+		border-radius: 10px;
+		margin-left: 0px;
+	}
+
+	.banner_btn{
+		width: 100px;
+		height: 40px;
+		background-color: #90AA29;
+		color: white;
+		font-size: 10px;
+		margin-left: 35px;
+		border-radius: 10px;
+	}
+
+	.box{
+		position:relative;
+		top:0;
+		left:120px;
+	}
+
+	.box_head,.box_text{
+		position: relative;
+		top:-100px;
+		left: 90px;
+	}
+
+	.feature_img {
+		margin-top: 522px;
+		position: relative;
+		top:0;
+		left:-170px;
+	}
+
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+
+	.dotted_img{
+		display: none;
+	}
+
+	.yellow_value{
+		font-size: 15px!important;
+		
+	}
+	header .banner_btn{
+		width: 100px;
+		height: 40px;
+		background-color: #90AA29;
+		color: white;
+		border-radius: 10px;
+		margin-left: 0px;
+	}
+
+	.banner_btn{
+		width: 100px;
+		height: 40px;
+		background-color: #90AA29;
+		color: white;
+		font-size: 10px;
+		margin-left: -5px;
+		border-radius: 10px;
+	}
+
+	.box{
+		position:relative;
+		top:0;
+		left:120px;
+	}
+
+	.box_head,.box_text{
+		position: relative;
+		top:-10px;
+		left: 30px;
+	}
+
+	.feature_img {
+		margin-top: 522px;
+		position: relative;
+		top:0;
+		left:-170px;
+	}
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+	.dotted_img{
+		display: none;
+	}
+
+	header .banner_btn{
+		width: 100px;
+		height: 40px;
+		background-color: #90AA29;
+		color: white;
+		border-radius: 10px;
+		margin-left: 0px;
+	}
+
+	.banner_btn{
+		width: 100px;
+		height: 40px;
+		background-color: #90AA29;
+		color: white;
+		font-size: 10px;
+		margin-left: 35px;
+		border-radius: 10px;
+	}
+
+	.yellow_value{
+		font-size: 25px!important;
+		
+	}
+
+	.box{
+		margin-top: 10px;
+		width: 420px;
+		height: 115px;
+		box-shadow: 5px 5px 10px lightgray;
+		border-radius: 20px;
+	}
+
+	.box_head{
+		padding-top:20px;
+		font-size: 20px;
+	}
+
+	.box_text{
+		font-size: 14px;
+	}
+
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+	.dotted_img{
+		position: relative;
+		top:-30px;
+		left: 60px;
+	}
+
+
+
+}
